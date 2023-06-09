@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+header{
+    font-size: x-large;
+    /* font-weight: ; */
+    padding: 70px 0px 0px 200px;
+    background-image:url(/background-header.SVG);
+
+}
+
+#texto{
+    display: grid;
+    grid-template-columns: 30vw ;
+}
+
+header h1{
+    margin-bottom: 50px;
+}
+#texto2{
+    text-align:start ;
+}
