@@ -53,15 +53,47 @@ nav{
 }
 
 .itensNavRelogio{   
-        font-size: 20px;
+        font-size: 25px;
         display: flex;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     
         text-align: center;
         align-items: center;
         /* border: 1px solid red; */
 }
 
-.itensNav label {
+label {
     margin-left:20px;
+}
+
+main{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    ;
+    padding: 100px 0px 100px 200px;
+    /* font-size: 25px; */
+    justify-content: space-around;
+}
+
+main img{
+    width: 700px;
+    
+}
+
+#textoDireita{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    color: black
+}
+#textoDireita h1{
+    font-size: 40px;
+    color: #247BA0;
+}
+#textoDireita h4{
+    font-weight: 100;
+    font-size: 20px;
+  
 }
