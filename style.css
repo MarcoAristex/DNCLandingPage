@@ -6,6 +6,7 @@ body{
     background-image:url(/PROJETO-LandingPage/imagens/background-header.svg);
     background-repeat:no-repeat;
     background-size: 100%;
+   
 }
 
 #logo{
@@ -18,7 +19,8 @@ header{
     /* background-color: black; */
     font-size: x-large;
     /* font-weight: ; */
-    padding: 70px 0px 0px 200px;
+    padding: 70px 0px 0px 0px;
+   
     
    
    height: 500px;
@@ -30,10 +32,12 @@ header{
 #texto{
     display: grid;
     grid-template-columns: 25vw ;
+    padding: 70px 0px 0px 202px;
 }
 
 header h1{
     margin-bottom: 50px;
+    
 }
 #texto2{
     text-align:start ;
