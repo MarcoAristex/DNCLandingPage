@@ -10,10 +10,10 @@
     <title>LandingPage</title>
 </head>
 <body>
-    
-    <img src="/PROJETO-LandingPage/imagens/logo.svg" id="logo" alt="">
+  <a href="https://www.escoladnc.com.br"><img src="/PROJETO-LandingPage/imagens/logo.svg" id="logo" alt=""></a>  
+  
     <header >
-        
+     
         <div id="texto">
     <h1>
         Dê os primeiros passos da sua carreira em Tecnologia
@@ -34,10 +34,12 @@
   <label>4 horas de conteúdo</label>
 </div>
 <div class="itensNav">
- <img src="/PROJETO-LandingPage/imagens/gravadas.svg" alt="Logo" width="50" height="54"  ">
+<img src="/PROJETO-LandingPage/imagens/gravadas.svg" alt="Logo" width="50" height="54"  >
  <label>Aulas online gravadas</label>
 </div>
   </nav>
+
+
 <main>
   <div id="video"><img src="/PROJETO-LandingPage/imagens/rectangle.svg" alt=""></div>
   <div id="textoDireita"><h1>Aprenda com especialistas e comece seu primeiro projeto</h1>
@@ -45,6 +47,32 @@
 
     <br><br><br>Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</h4></div>
 </main>
+
+<section   ><!-- carrossel-->
+<h1>Mais de 500 alunos já iniciaram seus estudos</h1> <!-- titulo-carrossel-->
+<div id="depoimentos-section"> <!-- div-cards-->
+  <img src="/PROJETO-LandingPage/imagens/SetaEsquerda.svg" onclick="RolarEsquerda()"id="SetaEsquerda" class="seta">
+
+  <img src="/PROJETO-LandingPage/imagens/depoimento1.svg" id="depoimento1" class="depoimento">
+  <img src="/PROJETO-LandingPage/imagens/depoimento2.svg" id="depoimento2" class="depoimento">
+  <img src="/PROJETO-LandingPage/imagens/depoimento3.svg" id="depoimento3" class="depoimento">
+
+  <img src="/PROJETO-LandingPage/imagens/setaDireita.svg" onclick="RolarDireita()" id="SetaDireita" class="seta">
+
+
+<!-- <a href="" id="setaDireita" onclick="changeDepoimento()"><img src="/PROJETO-LandingPage/imagens/setaDireita.svg"></a> -->
+</div>
+</section>
+<form action="https://api.sheetmonkey.io/form/cmEhEMy1UNEVxrt9Xsv4of" method="post">
+  <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+  
+  <input required name="Name" type="text" placeholder="Nome">
+  <input  required name="Email"  type="Email" placeholder="E-Mail">
+  <input  type="Tel"  name="Phone"  placeholder="Telefone">
+  <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+  <button type="submit">Acesse a ementa grátis</button>
+
+</form>
 
     <script src="index.js"></script>
 </body>
